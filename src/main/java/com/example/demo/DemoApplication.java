@@ -20,5 +20,10 @@ public class DemoApplication {
     public String getMessage() {
         return "Good to go";
     }
+    @GetMapping("new")
+    public String getMessageNew()
+    {
+        return "Good to go new";
+    }
 
 }
